@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+img{
+    width: 100vw;
+}
+a{
+    display: block;
+    background-color: darkblue;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    background-color: blue;
+}
