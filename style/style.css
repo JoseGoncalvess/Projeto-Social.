@@ -42,3 +42,22 @@ main{
     height: 470px;
     width: 267px;
 }
+#social{
+    text-align: right;
+    padding: 10px;
+    
+}
+#social img{
+    width: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.420);
+    box-sizing: border-box;
+}
+#social img:hover{
+    border:  1px solid rgb(255, 255, 255);
+    transform: translate(-5px, -3px);
+    box-shadow: 5px 5px 2px  rgba(0, 0, 0, 0.430);
+    transition: transform 0.8s;
+    transition: border 1s;
+}
